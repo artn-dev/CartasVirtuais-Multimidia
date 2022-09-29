@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="copas-as" size="0.058000 0.077333" />
+    <ImageTarget name="copas-2" size="0.058000 0.077333" />
+    <ImageTarget name="copas-3" size="0.058000 0.077333" />
+    <ImageTarget name="copas-4" size="0.058000 0.077333" />
+    <ImageTarget name="copas-5" size="0.058000 0.077333" />
+    <ImageTarget name="copas-6" size="0.058000 0.077333" />
+    <ImageTarget name="copas-7" size="0.058000 0.077333" />
+    <ImageTarget name="copas-8" size="0.058000 0.077333" />
+    <ImageTarget name="copas-9" size="0.058000 0.077333" />
+    <ImageTarget name="copas-10" size="0.058000 0.077333" />
+    <ImageTarget name="copas-valete" size="0.058000 0.077333" />
+    <ImageTarget name="copas-rainha" size="0.058000 0.077333" />
+    <ImageTarget name="copas-rei" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-as" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-2" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-3" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-4" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-5" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-6" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-7" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-8" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-9" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-10" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-valete" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-rainha" size="0.058000 0.077333" />
+    <ImageTarget name="espadas-rei" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-as" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-2" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-3" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-4" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-5" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-6" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-7" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-8" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-9" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-10" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-valete" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-rainha" size="0.058000 0.077333" />
+    <ImageTarget name="ouros-rei" size="0.058000 0.077333" />
+    <ImageTarget name="paus-as" size="0.058000 0.077333" />
+    <ImageTarget name="paus-2" size="0.058000 0.077333" />
+    <ImageTarget name="paus-3" size="0.058000 0.077333" />
+    <ImageTarget name="paus-4" size="0.058000 0.077333" />
+    <ImageTarget name="paus-5" size="0.058000 0.077333" />
+    <ImageTarget name="paus-6" size="0.058000 0.077333" />
+    <ImageTarget name="paus-7" size="0.058000 0.077333" />
+    <ImageTarget name="paus-8" size="0.058000 0.077333" />
+    <ImageTarget name="paus-9" size="0.058000 0.077333" />
+    <ImageTarget name="paus-10" size="0.058000 0.077333" />
+    <ImageTarget name="paus-valete" size="0.058000 0.077333" />
+    <ImageTarget name="paus-rainha" size="0.058000 0.077333" />
+    <ImageTarget name="paus-rei" size="0.058000 0.077333" />
+  </Tracking>
+</QCARConfig>
