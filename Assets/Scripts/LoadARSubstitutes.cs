@@ -11,8 +11,11 @@ public class LoadARSubstitutes : MonoBehaviour
     void Start()
     {
         GameObject virtualCard = Resources.Load("Cards/Example/IMG-00") as GameObject;
-        GameObject marker = GameObject.Find("clubs-king");
-
-        Instantiate(virtualCard, marker.transform);
+        GameObject markersParent = GameObject.Find("Markers");
+        
+        foreach (Transform t in markersParent.transform.GetComponentInChildren<Transform>())
+        {
+            Instantiate(virtualCard, t);
+        }
     }
 }
