@@ -24,7 +24,7 @@ public class LoadARSubstitutes : MonoBehaviour
 
     private List<GameObject> GetVirtualCards()
     {
-        var loadedObjects = Resources.LoadAll("Cards/Example", typeof(GameObject)).Cast<GameObject>();
+        var loadedObjects = Resources.LoadAll(MainMenu.virtualCardsFolderPath, typeof(GameObject)).Cast<GameObject>();
 
         List<GameObject> virtualCards = new List<GameObject>();
         foreach (var loadedObject in loadedObjects)
