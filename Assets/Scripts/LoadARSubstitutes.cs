@@ -6,10 +6,7 @@ using TMPro;
 
 public class LoadARSubstitutes : MonoBehaviour
 {
-    public TMP_Text foo;
-
     void Start()
     {
-        foo.text = DateTime.Now.ToString();
     }
 }
