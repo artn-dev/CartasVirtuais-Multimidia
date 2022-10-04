@@ -9,7 +9,12 @@ public class LoadARSubstitutes : MonoBehaviour
 {
     void Start()
     {
-        List<GameObject> virtualCards = GetVirtualCards();
+        string virtualCardsPath = MainMenu.virtualCardsFolderPath;
+
+        if (virtualCardsPath == "")
+            return;
+
+        List<GameObject> virtualCards = GetVirtualCards(virtualCardsPath);
         GameObject markersParent = GameObject.Find("Markers");
         int i = 0;
 
@@ -22,9 +27,10 @@ public class LoadARSubstitutes : MonoBehaviour
         }
     }
 
-    private List<GameObject> GetVirtualCards()
+    private List<GameObject> GetVirtualCards(string path)
     {
-        var loadedObjects = Resources.LoadAll(MainMenu.virtualCardsFolderPath, typeof(GameObject)).Cast<GameObject>();
+        Debug.Log("Loading cards from: " + path);
+        var loadedObjects = Resources.LoadAll(path, typeof(GameObject)).Cast<GameObject>();
 
         List<GameObject> virtualCards = new List<GameObject>();
         foreach (var loadedObject in loadedObjects)

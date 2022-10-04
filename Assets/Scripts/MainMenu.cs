@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    static public string virtualCardsFolderPath = "Cards/Example";
+    public static string virtualCardsFolderPath = "";
 
     public void LoadScene(string sceneName)
     {
@@ -15,5 +15,6 @@ public class MainMenu : MonoBehaviour
     public void SetVirtualCards(string folderPath)
     {
         virtualCardsFolderPath = folderPath;
+        Debug.Log("Virtual cards folter set to: " + folderPath);
     }
 }
